@@ -8,11 +8,17 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
   "author": "Mislene",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "dialogflow": "^0.10.1",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
